@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\OpeningAnimation">
+      <UniqueIdentifier>{d70df524-76c3-4a81-82ad-7668ada8eff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BtnTurn">
+      <UniqueIdentifier>{d7bd13ad-f6f3-4ed2-8fac-16f783f532e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\CaptureScreen">
+      <UniqueIdentifier>{ef927796-ef6d-4710-bb93-66b0b2ca9559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\CandyCrush">
+      <UniqueIdentifier>{7be37068-ca52-4ec5-86cb-80233eaacb90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\LinkLiner">
+      <UniqueIdentifier>{897b1a11-8d25-407b-9b4a-c72f7ab7e2b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Csv">
+      <UniqueIdentifier>{2bc0b2a8-d803-426e-9a4a-0d6d1fe65bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AStar">
+      <UniqueIdentifier>{c1077dd5-881a-4c7e-8058-ee9aeb18dca7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOver.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainMenu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MidMenu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MoveTiled.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\OpeningAnimation\OpeningAnimation.cpp">
+      <Filter>src\OpeningAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BtnTurn\BtnTurn.cpp">
+      <Filter>src\BtnTurn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BtnTurn\BtnTurnTest.cpp">
+      <Filter>src\BtnTurn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\captureScreen\captureScreen.cpp">
+      <Filter>src\CaptureScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CandyCrush\WelcomeScene_CandyCrush.cpp">
+      <Filter>src\CandyCrush</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CandyCrush\GameOver_CandyCrush.cpp">
+      <Filter>src\CandyCrush</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CandyCrush\GameScene_CandyCrush.cpp">
+      <Filter>src\CandyCrush</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CandyCrush\SpriteShape_CandyCrush.cpp">
+      <Filter>src\CandyCrush</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LinkLiner\GameLayer.cpp">
+      <Filter>src\LinkLiner</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LinkLiner\MenuScene.cpp">
+      <Filter>src\LinkLiner</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClippingNodeDemo1.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Marquee.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Csv\Csv.cpp">
+      <Filter>src\Csv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AStar\Graph.cpp">
+      <Filter>src\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AStar\Dijkstra.cpp">
+      <Filter>src\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AStar\GraphPathfinding.cpp">
+      <Filter>src\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AStar\Spfa.cpp">
+      <Filter>src\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AStar\MapWalkVertex.cpp">
+      <Filter>src\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AStar\MapWalkConfigManager.cpp">
+      <Filter>src\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AStar\LayerMapWalk.cpp">
+      <Filter>src\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RoleKaito.cpp">
+      <Filter>src\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AStar\LayerHudControl.cpp">
+      <Filter>src\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AStar\SceneMapWalk.cpp">
+      <Filter>src\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AStar\AStar.cpp">
+      <Filter>src\AStar</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameDefine.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOver.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenu.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MidMenu.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MoveTiled.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ChineseString.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\OpeningAnimation\OpeningAnimation.h">
+      <Filter>src\OpeningAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BtnTurn\BtnTurn.h">
+      <Filter>src\BtnTurn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BtnTurn\BtnTurnTest.h">
+      <Filter>src\BtnTurn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\backMain.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\captureScreen\captureScreen.h">
+      <Filter>src\CaptureScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CandyCrush\WelcomeScene_CandyCrush.h">
+      <Filter>src\CandyCrush</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CandyCrush\GameOver_CandyCrush.h">
+      <Filter>src\CandyCrush</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CandyCrush\GameScene_CandyCrush.h">
+      <Filter>src\CandyCrush</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CandyCrush\SpriteShape_CandyCrush.h">
+      <Filter>src\CandyCrush</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KDetectMemoryLeak.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LinkLiner\GameLayer.h">
+      <Filter>src\LinkLiner</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LinkLiner\MenuScene.h">
+      <Filter>src\LinkLiner</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClippingNodeDemo1.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Marquee.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Csv\Csv.h">
+      <Filter>src\Csv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AStar\Graph.h">
+      <Filter>src\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AStar\GraphPathfinding.h">
+      <Filter>src\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AStar\Dijkstra.h">
+      <Filter>src\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AStar\Spfa.h">
+      <Filter>src\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AStar\MapWalkVertex.h">
+      <Filter>src\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AStar\MapWalkConfigManager.h">
+      <Filter>src\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AStar\LayerMapWalk.h">
+      <Filter>src\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RoleKaito.h">
+      <Filter>src\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AStar\LayerHudControl.h">
+      <Filter>src\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AStar\SceneMapWalk.h">
+      <Filter>src\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AStar\AStarDefine.h">
+      <Filter>src\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AStar\AStar.h">
+      <Filter>src\AStar</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

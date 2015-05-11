@@ -1,0 +1,35 @@
+<Graph>
+    <Vertexes>
+        <Vertex Id="938" x="325.254" y="457.773"/>
+        <Vertex Id="721" x="755.547" y="390.883"/>
+        <Vertex Id="64" x="601.8" y="475.743"/>
+        <Vertex Id="156" x="419.099" y="297.037"/>
+        <Vertex Id="633" x="705.628" y="226.154"/>
+        <Vertex Id="462" x="617.773" y="351.947"/>
+        <Vertex Id="8" x="373.175" y="388.886"/>
+    </Vertexes>
+    <Edges>
+        <Edge StartVertexId="938" EndVertexId="462" Weight="311"/>
+        <Edge StartVertexId="938" EndVertexId="64" Weight="277"/>
+        <Edge StartVertexId="938" EndVertexId="8" Weight="83"/>
+        <Edge StartVertexId="721" EndVertexId="633" Weight="172"/>
+        <Edge StartVertexId="721" EndVertexId="462" Weight="143"/>
+        <Edge StartVertexId="721" EndVertexId="64" Weight="175"/>
+        <Edge StartVertexId="64" EndVertexId="462" Weight="124"/>
+        <Edge StartVertexId="64" EndVertexId="721" Weight="175"/>
+        <Edge StartVertexId="64" EndVertexId="938" Weight="277"/>
+        <Edge StartVertexId="156" EndVertexId="633" Weight="295"/>
+        <Edge StartVertexId="156" EndVertexId="462" Weight="206"/>
+        <Edge StartVertexId="156" EndVertexId="8" Weight="102"/>
+        <Edge StartVertexId="633" EndVertexId="721" Weight="172"/>
+        <Edge StartVertexId="633" EndVertexId="156" Weight="295"/>
+        <Edge StartVertexId="633" EndVertexId="462" Weight="153"/>
+        <Edge StartVertexId="462" EndVertexId="633" Weight="153"/>
+        <Edge StartVertexId="462" EndVertexId="156" Weight="206"/>
+        <Edge StartVertexId="462" EndVertexId="938" Weight="311"/>
+        <Edge StartVertexId="462" EndVertexId="64" Weight="124"/>
+        <Edge StartVertexId="462" EndVertexId="721" Weight="143"/>
+        <Edge StartVertexId="8" EndVertexId="156" Weight="102"/>
+        <Edge StartVertexId="8" EndVertexId="938" Weight="83"/>
+    </Edges>
+</Graph>

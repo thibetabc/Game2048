@@ -1,0 +1,6 @@
+﻿<kv>
+    <string Key="btnDrag" Value="当前模式：拖曳场景" />
+    <string Key="btnEditGraph" Value="当前模式：编辑图" />
+    <string Key="btnPositionRole" Value="当前模式：放置角色" />
+    <string Key="btnWalk" Value="当前模式：角色行走" />
+</kv>
